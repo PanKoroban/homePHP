@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +9,8 @@
 </head>
 
 <body>
-    <div><a href="<?= $_SERVER['HTTP_REFERER'] ;?>">Назад</a></div>
-    <img src="img/<?= $_GET['name']; ?>">   
+    <div><a href="<?= $_SERVER['HTTP_REFERER'] ?>">Назад</a></div>
+    <img src="img/<?= $_GET['name'] ?>">   
 </body>
 
 </html> 
