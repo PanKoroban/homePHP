@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fffef8;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header {
+    height: 70px;
+    background-color: lightgrey;
+}
+
+.cont{
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    background-color: #fffefa;
+
+}
+
+.price{
+    position: absolute;
+    bottom: 100px;
+    left: 240px;
+    color: #17171a;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: #fffdee;
+    border-radius: 30px;
+    padding: 4px;
+}
+
+.full_image{
+    border-radius: 4px;
+}
+
+.disc{
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: Arial, serif;
+    position: relative;
+    min-width: 522px;
+}
+
+.name{
+    text-align: center;
+    margin-top: 10px;
+    width: 80%;
+}
+.author{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.h3_anno{
+    margin-left: 10px;
+
+}
+.anno{
+    margin-left: 10px;
+    width: 80%;
+}
+.disc a{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #b4b2a4;
+    color: #17171a;
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 30px;
+    height: 30px;
+    background-color: rgb(134, 124, 124)
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card p{
+    text-align: center;
+}
+
+.comment{
+    display: flex;
+    margin-top: 10px;
+}
+.inner_comment{
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.inner_comment_text{
+    background-color: #b4b2a4;
+    margin-top: 10px;
+    margin-left: 5px;
+}

@@ -1,0 +1,26 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 80%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+}
+
+.main_img{
+    margin: 5px;
+}
+
+.container{
+    display: flex;
+}
+
+form{
+    margin-left: 15px;
+    background-color: beige;
+} 
