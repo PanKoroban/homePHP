@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fffef8;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.basket_main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.basket_card input{
+    min-width: 150px;
+    margin: 3px;
+    padding: 3px;
+    background-color: lightgray;
+}
+.buy{
+    min-width: 150px;
+    margin: 3px;
+    padding: 3px; 
+    background-color: lightgray;
+
+}
